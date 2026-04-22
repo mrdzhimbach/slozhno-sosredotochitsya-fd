@@ -10,6 +10,7 @@ body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
+  font-family: "IBM Plex Mono", sans-serif;
 }
 
 h1,
@@ -39,4 +40,19 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  text-decoration: none;
+}
+
+/* Подключение шрифтов */
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url(/fonts/IBMPlexMono-Regular.woff);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url(/fonts/IBMPlexMono-Bold.woff);
+  font-weight: bold;
 }

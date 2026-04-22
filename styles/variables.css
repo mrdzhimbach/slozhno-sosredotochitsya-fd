@@ -1,4 +1,32 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --bg-image: url("/images/cover-image-dark.png");
+  --text-base: 18px;
+  --text-line-height: 23.4px;
+
+  /* Переменные тёмной темы*/
+
+  --accent-color: #ff0070;
+  --secondary: #db00ff;
+  --theme-color: #000028;
+  --tritiaty: #f1b2ce;
+
+  /* Стили для декоративных элементов */
+
+  --decorative-element-display: inline;
+  --decorative-element-color: var(--accent-color);
+
+  --background-theme-color: var(--theme-color);
+  --wrapped-text-color: var(--theme-color);
+  --shadow-color: var(--accent-color);
+  --wrapper-color: var(--accent-color);
+
+  --switcher-color: var(--accent-color);
+
+  --wrapper-section-color: var(--theme-color);
+
+  --secondary-title-color: var(--accent-color);
+
+  --card-text-color: var(--tritiaty);
+
+  --link-focused-color: var(--tritiaty);
+}
