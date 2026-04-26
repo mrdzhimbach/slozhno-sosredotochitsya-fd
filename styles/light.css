@@ -10,41 +10,48 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --accent-color: #ff8dcb;
-  --secondary: #ffc2e6;
+  --title-color: #ffc2e6;
   --theme-color: #353430;
-  --tritiaty: #fff1f7;
-  --bg-image: url("/images/cover-image-light.png");
+  --additional-color: #fff1f7;
+
+  /* Стили для декоративных элементов */
+
+  --bg-image: url("/images/cover-image-light.png"); /* Путь корректный, изображение загружается */
   --decorative-element-display: none;
   --decorative-element-color: var(--theme-color);
-  --background-theme-color: var(--tritiaty);
+  --background-theme-color: var(--additional-color);
   --wrapped-text-color: var(--theme-color);
   --shadow-color: var(--accent-color);
   --wrapper-color: var(--accent-color);
   --switcher-color: var(--theme-color);
-  --wrapper-section-color: var(--tritiaty);
-  --secondary-title-color: var(--theme-color);
+  --switcher-hover-color: #32312d40;
+  --wrapper-section-color: var(--additional-color);
+  --subtitle-color: var(--theme-color);
   --card-text-color: var(--theme-color);
-  --link-focused-color: #353430;
+  --link-focused-color: var(--theme-color);
+  --link-hovered-color: var(--theme-color);
 }
 
 @media (prefers-color-scheme: light) {
-
   :root {
     --accent-color: #ff8dcb;
-    --secondary: #ffc2e6;
+    --title-color: #ffc2e6;
     --theme-color: #353430;
-    --tritiaty: #fff1f7;
-    --bg-image: url("/images/cover-image-light.png");
+    --additional-color: #fff1f7;
+
+    --bg-image: url("/images/cover-image-light.png"); /* Путь корректный, изображение загружается */
     --decorative-element-display: none;
     --decorative-element-color: var(--theme-color);
-    --background-theme-color: var(--tritiaty);
+    --background-theme-color: var(--additional-color);
     --wrapped-text-color: var(--theme-color);
     --shadow-color: var(--accent-color);
     --wrapper-color: var(--accent-color);
     --switcher-color: var(--theme-color);
-    --wrapper-section-color: var(--tritiaty);
-    --secondary-title-color: var(--theme-color);
+    --switcher-hover-color: #32312d40;
+    --wrapper-section-color: var(--additional-color);
+    --subtitle-color: var(--theme-color);
     --card-text-color: var(--theme-color);
-    --link-focused-color: #353430;
+    --link-focused-color: var(--theme-color);
+    --link-hovered-color: var(--theme-color);
   }
 }

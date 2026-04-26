@@ -10,7 +10,23 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --accent-color: #ff0070;
-  --secondary: #db00ff;
+  --title-color: #db00ff;
   --theme-color: #000028;
-  --tritiaty: #f1b2ce;
+  --additional-color: #f1b2ce;
+
+  /* Стили для декоративных элементов */
+
+  --decorative-element-display: inline;
+  --decorative-element-color: var(--accent-color);
+  --background-theme-color: var(--theme-color);
+  --wrapped-text-color: var(--theme-color);
+  --shadow-color: var(--accent-color);
+  --wrapper-color: var(--accent-color);
+  --switcher-color: var(--accent-color);
+  --switcher-hover-color: #ff007040;
+  --wrapper-section-color: var(--theme-color);
+  --subtitle-color: var(--accent-color);
+  --card-text-color: var(--additional-color);
+  --link-focused-color: var(--additional-color);
+  --link-hovered-color: var(--additional-color);
 }

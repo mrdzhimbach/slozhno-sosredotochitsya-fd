@@ -6,9 +6,9 @@
   /* Переменные тёмной темы*/
 
   --accent-color: #ff0070;
-  --secondary: #db00ff;
+  --title-color: #db00ff;
   --theme-color: #000028;
-  --tritiaty: #f1b2ce;
+  --additional-color: #f1b2ce;
 
   /* Стили для декоративных элементов */
 
@@ -24,9 +24,11 @@
 
   --wrapper-section-color: var(--theme-color);
 
-  --secondary-title-color: var(--accent-color);
+  --subtitle-color: var(--accent-color);
 
-  --card-text-color: var(--tritiaty);
+  --card-text-color: var(--additional-color);
 
-  --link-focused-color: var(--tritiaty);
+  --link-focused-color: var(--additional-color);
+
+  --link-hovered-color: var(--additional-color);
 }

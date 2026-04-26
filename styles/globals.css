@@ -42,17 +42,3 @@ a {
   line-height: inherit;
   text-decoration: none;
 }
-
-/* Подключение шрифтов */
-
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url(/fonts/IBMPlexMono-Regular.woff);
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url(/fonts/IBMPlexMono-Bold.woff);
-  font-weight: bold;
-}
