@@ -16,7 +16,7 @@
 
   /* Стили для декоративных элементов */
 
-  --bg-image: url("/images/cover-image-light.png"); /* Путь корректный, изображение загружается */
+  --bg-image: url("../images/cover-image-light.png"); /* Путь корректный, изображение загружается */
   --decorative-element-display: none;
   --decorative-element-color: var(--theme-color);
   --background-theme-color: var(--additional-color);
@@ -30,6 +30,7 @@
   --card-text-color: var(--theme-color);
   --link-focused-color: var(--theme-color);
   --link-hovered-color: var(--theme-color);
+  --page-bg-color: var(--additional-color);
 }
 
 @media (prefers-color-scheme: light) {
@@ -39,7 +40,7 @@
     --theme-color: #353430;
     --additional-color: #fff1f7;
 
-    --bg-image: url("/images/cover-image-light.png"); /* Путь корректный, изображение загружается */
+    --bg-image: url("../images/cover-image-light.png"); /* Путь корректный, изображение загружается */
     --decorative-element-display: none;
     --decorative-element-color: var(--theme-color);
     --background-theme-color: var(--additional-color);
@@ -53,5 +54,6 @@
     --card-text-color: var(--theme-color);
     --link-focused-color: var(--theme-color);
     --link-hovered-color: var(--theme-color);
+    --page-bg-color: var(--additional-color);
   }
 }

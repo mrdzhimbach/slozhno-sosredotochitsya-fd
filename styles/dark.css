@@ -9,13 +9,14 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+
   --accent-color: #ff0070;
   --title-color: #db00ff;
   --theme-color: #000028;
   --additional-color: #f1b2ce;
 
   /* Стили для декоративных элементов */
-
+  --bg-image: url("../images/cover-image-dark.png");
   --decorative-element-display: inline;
   --decorative-element-color: var(--accent-color);
   --background-theme-color: var(--theme-color);
@@ -29,4 +30,5 @@
   --card-text-color: var(--additional-color);
   --link-focused-color: var(--additional-color);
   --link-hovered-color: var(--additional-color);
+  --page-bg-color: var(--theme-color);
 }

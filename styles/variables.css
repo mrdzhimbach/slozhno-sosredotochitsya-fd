@@ -1,5 +1,5 @@
 :root {
-  --bg-image: url("/images/cover-image-dark.png");
+  --bg-image: url("../images/cover-image-dark.png");
   --text-base: 18px;
   --text-line-height: 23.4px;
 
@@ -31,4 +31,6 @@
   --link-focused-color: var(--additional-color);
 
   --link-hovered-color: var(--additional-color);
+
+  --page-bg-color: var(--theme-color);
 }
